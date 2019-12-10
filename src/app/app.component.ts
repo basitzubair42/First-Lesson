@@ -36,6 +36,13 @@ export class AppComponent {
       home: true,
       children: undefined
     },
+    {
+      title: 'Comments',
+      icon: 'edit-outline',
+      link: '/comments',
+      home: true,
+      children: undefined
+    },
   ];
   constructor(private sidebarService: NbSidebarService) {}
   

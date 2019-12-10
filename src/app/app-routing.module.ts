@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PostsComponent } from './posts/posts.component';
 import { ToDosComponent } from './to-dos/to-dos.component';
+import { CommentsComponent } from './comments/comments.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'users', component: UsersComponent },
   { path: 'posts', component: PostsComponent },
   { path: 'todos', component: ToDosComponent },
+  { path: 'comments', component: CommentsComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', redirectTo: 'home' }
 ];
