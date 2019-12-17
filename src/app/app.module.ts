@@ -21,9 +21,11 @@ import { PostsComponent } from './posts/posts.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ToDosComponent } from './to-dos/to-dos.component';
 import { CommentsComponent } from './comments/comments.component';
+import { MatchResultsComponent } from './match-results/match-results.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
-  declarations: [AppComponent, UsersComponent, HomeComponent, PostsComponent, ToDosComponent, CommentsComponent],
+  declarations: [AppComponent, UsersComponent, HomeComponent, PostsComponent, ToDosComponent, CommentsComponent,  MatchResultsComponent, TeamComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

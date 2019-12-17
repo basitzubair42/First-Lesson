@@ -42,6 +42,14 @@ export class AppComponent {
       link: '/comments',
       home: true,
       children: undefined
+    }
+    ,
+    {
+      title: 'Match-Results',
+      icon: 'email-outline',
+      link: '/match-results',
+      home: true,
+      children: undefined
     },
   ];
   constructor(private sidebarService: NbSidebarService) {}
